@@ -1,8 +1,6 @@
-# Roadmap-To-Learn-Agentic-AI
+# Roadmap-To-Learn-Agentic-AI:
 
-## Prerequisites
-
-## 1. Python Programming Language
+# 1. Python Programming Language
 #### Python:
 ![python-logo-master-v3-TM-flattened](https://user-images.githubusercontent.com/20041231/211717885-0b1e049b-f5b3-457d-ba7a-9345ec3aa39c.png)
 
@@ -10,7 +8,7 @@
 
 2. Complete Python Playlist In Hindi:   [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=MJd9d9Mpxg0&list=PLTDARY42LDV4qqiJd1Z1tShm3mp9-rP4v)
 
-## 2. Basic Machine Learning Natural Language Processing [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=ENLEjGozrio)
+# 2. Basic Machine Learning Natural Language Processing [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=ENLEjGozrio)
 # Text Encoding Techniques for Machine Learning
 
 ## Introduction
@@ -76,12 +74,12 @@ Where `n` is the number of words in the sentence.
 
 
 
-## 3. Complete Deep Learning For NLP [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn)
+# 3. Complete Deep Learning For NLP [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn)
 1. Deep Learning NLP: [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn)
 2. Indepth Transformer Explanation: [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=3bPhDUSAUYI)
 
 
-## 4. Complete Generative AI Tutorials With End To End Projects
+# 4. Complete Generative AI Tutorials With End To End Projects
 <img src="https://github.com/krishnaik06/Roadmap-To-Learn-Generative-AI-In-2024/assets/20041231/ebaa03ec-4370-4ea0-989d-5314370cd2da" alt="Alt Text" width="300" height="200">
 <img src="https://github.com/user-attachments/assets/e3070185-ffd2-49f4-a159-825c7c2bda02" alt="Alt Text" width="300" height="200">
 <img src="https://github.com/user-attachments/assets/dbbba97d-c4f2-4ffe-8b8d-4b992005f3fc" alt="Alt Text" width="300" height="200">
