@@ -11,10 +11,70 @@
 2. Complete Python Playlist In Hindi:   [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=MJd9d9Mpxg0&list=PLTDARY42LDV4qqiJd1Z1tShm3mp9-rP4v)
 
 ## 2. Basic Machine Learning Natural Language Processing [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=ENLEjGozrio)
-1. Why NLP?
-2. One hot Encoding, Bag Of Words,
-3. TFIDF
-4. Word2vec,AvgWord2vec
+# Text Encoding Techniques for Machine Learning
+
+## Introduction
+Text encoding is a crucial step in natural language processing (NLP). Several encoding techniques are commonly used to convert text data into numerical form for machine learning models. This document outlines four key encoding techniques: One-Hot Encoding, Bag of Words, TF-IDF, and Word2Vec with examples.
+
+## One-Hot Encoding (OHE)
+One-hot encoding represents each word as a binary vector. Each position in the vector corresponds to a word in the vocabulary, and only one position is set to 1 while others are set to 0.
+
+**Example:**  
+Suppose the vocabulary consists of the words: `[cat, dog, mouse]`. The one-hot encodings would be:
+- `cat → [1, 0, 0]`
+- `dog → [0, 1, 0]`
+- `mouse → [0, 0, 1]`
+
+## Bag of Words (BoW)
+The Bag of Words model represents text data by counting the frequency of words in a given document without considering their order.
+
+**Example:**  
+Consider two sentences:
+- Sentence 1: `The cat sat on the mat`
+- Sentence 2: `The dog barked at the cat`
+
+**Vocabulary:** `[the, cat, sat, on, mat, dog, barked, at]`
+
+- BoW Vector for Sentence 1 = `[2, 1, 1, 1, 1, 0, 0, 0]`  
+- BoW Vector for Sentence 2 = `[2, 1, 0, 0, 0, 1, 1, 1]`
+
+## Term Frequency-Inverse Document Frequency (TF-IDF)
+TF-IDF is a statistical measure used to evaluate the importance of a word in a document relative to a collection of documents (corpus). It assigns higher values to words that are frequent in a document but rare in the overall corpus.
+
+**TF Formula:**  
+TF(t) = (Frequency of term t in document) / (Total terms in document)
+
+
+**IDF Formula:**  
+IDF(t) = log (N / (1 + Number of documents containing term t))
+
+
+Where:
+- **`N`** = Total number of documents
+- **`|{ d ∈ D : t ∈ d }|`** = Number of documents containing term `t`
+
+## Word2Vec
+Word2Vec is a neural network-based technique that maps words into continuous vector spaces using either the Skip-gram or Continuous Bag of Words (CBOW) model. It captures semantic meaning by placing similar words closer in the vector space.
+
+**Example:** For a given sentence:
+> `The cat chased the mouse`
+
+Word2Vec may encode the words as follows:
+- `cat → [0.21, -0.12, 0.87, ...]`  
+- `mouse → [0.19, -0.14, 0.85, ...]`
+
+## Average Word2Vec (AvgWord2Vec)
+This technique computes the average of all Word2Vec vectors for the words in a document. It is useful for representing entire sentences or documents as fixed-size vectors.
+
+**Example:**  
+Given sentence: `The cat chased the mouse`
+AvgWord2Vec = (1/n) ∑ Word2Vec(w_i)
+
+Where `n` is the number of words in the sentence.
+
+
+
+
 
 ## 3. Complete Deep Learning For NLP [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn)
 1. Deep Learning NLP: [![YouTube](https://img.shields.io/badge/YouTube-Video-green)](https://www.youtube.com/watch?v=w3coRFpyddQ&list=PLZoTAELRMXVNNrHSKv36Lr3_156yCo6Nn)
